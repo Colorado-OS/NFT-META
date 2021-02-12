@@ -11,15 +11,15 @@ def parks_pass(pass_id):
     pass_id = int(pass_id)
 
     if pass_id == 1:
-        image_url = 'https://gateway.pinata.cloud/ipfs/QmSJqmXREd1f2WPV7hg9DK1fr3RQTURnGx9QqnjV1j98aW/iconfinder_colorado_state_flag_usa_5681508.png' 
+        image_url = 'https://gateway.pinata.cloud/ipfs/QmeAns2p1zrYPvP2sPqAaDjq879ce9qnUEpeABSaYGxWvb/Colorado_NFT-10.png' 
     elif pass_id == 2:
-        image_url = 'https://gateway.pinata.cloud/ipfs/QmbJiWqEyJ7U9dWagyMCGATqm6MkWLtKGt3sZdDpBChHoH/colo-parks-logo-768x768.jpg' 
+        image_url = 'https://gateway.pinata.cloud/ipfs/QmX8LNhPuVRpVB82Use8wZTdweWh8FHXa5sLbCCSZz5qMp/Colorado_NFT-06.png' 
     else:
-        image_url = 'https://gateway.pinata.cloud/ipfs/QmbJiWqEyJ7U9dWagyMCGATqm6MkWLtKGt3sZdDpBChHoH/colo-parks-logo-768x768.jpg'
+        image_url = 'https://gateway.pinata.cloud/ipfs/QmTsZ7oW94HDpYoowpEPTmJZ5augM7vUVQbhmamPqFwwm8/Colorado_NFT-11.png'
 
     return jsonify({
         'name': 'Colorado Park Pass',
-        'description': 'ETHDenver 2021 - ColoradoJam - Parks Pass NFT',
+        'description': 'ETHDenver 2021 - ColoradoJam - Colorado OS - Parks Pass NFT',
         'image': image_url
     })
 
@@ -36,7 +36,7 @@ def gaming_license(license_id):
 
     return jsonify({
         'name': 'Colorado Digital Gaming License',
-        'description': 'ETHDenver 2021 - ColoradoJam - Players Gaming License NFT',
+        'description': 'ETHDenver 2021 - ColoradoJam - Colorado OS - Players Gaming License NFT',
         'image': image_url
     })
 
